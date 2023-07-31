@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jongi media</title>
+</head>
+<body>
+
+
+    <nav>
+        <img class="logo" src="./images/LOGO.svg" alt=" logo"/> 
+        <p>SA/20:00</p>
+        <p class="nav-link"> <a href="">ABOUT</a> <a href="">SERVICES</a> <a href="">CONTACT</a></p>
+        <img src="./images/Hamburger_icon_white.svg" alt="" class="hambuger">
+    </nav>
+
+    <section class="sec-1">
+        <div class="top-jongi">
+            <img src="./images/JONGI MEDIA.png" alt="JONGI" class="Jongi"/>
+            <p class="ssp">SCROLL DOWN <img src="./images/Mouse Scrolling.svg" alt="scroll on"></p>
+        </div>
+        <div class="peple">
+            <div class="creative">
+                <p class="ssp"> CREATIVE AGENCY</p> <p class="ssp">WHAT CAN WE DO FOR YOU </p>
+            </div>
+            <div class="poeple-img">
+                <img src="./images/peple.png" alt="people" class="ppl">
+                <img src="./images/friday.png" class="mobile-img" alt="people">
+                <button class="btn-play"><img src="./images/icons8-circled-play-50.png" alt=""></button>
+            </div>
+            <div class="peple-text">
+                <h2>Dedicated to exceeding client’s expectation.</h2>
+                <p>we are creative agency dedicated to exceeding client’s expectation setting benchmark in the industry, transforming ideas into extra odinary experience that captivate audiences and propels bussinesses toward sucess.</p>
+                <div class="sub-peple-text">
+                    <p><a href="#">ABOUT US <img src="./images/arrow.svg" alt="arrow"></a></p>
+                    <p><a href="#">WHAT WE DO <img src="./images/arrow.svg" alt="arrow"></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-2">
+        <div class="lw-div">
+            <p class="Featured-Work">
+                Featured Work
+            </p>
+            <div class="div-woty">
+                <p class="woty"> see some of our recent works over the years </p>
+                <div class="see-all">
+                    <p><a href="#">SEE ALL ⇛ </a></p>
+                    <img src="./images/2020 - 23.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-3">
+        <div class="tips-grp">
+            
+                <div class="tips">
+                    <img src="./images/tips1.png" alt="images">
+                    <div>
+                        <h3>ADRIAN DEWEE</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</p>
+                        <b>PHOTOGARPHY</b>
+                    </div>
+                </div>
+
+                <div class="tips">
+                  <img src="./images/tips2.png" alt="images">
+                    <h3>ORANGE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</p>
+                    <b>BRANDING</b>
+                </div>
+
+                <div class="tips">  
+                    <img src="./images/tips3.png" alt="images">
+                    <h3>NIKE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</p>
+                    <b>VIDEOGARPHY</b>
+                </div>
+
+                <div class="tips">
+                    <img src="./images/tips4.png" alt="images">
+                    <h3>COCA COLA</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</p>
+                    <b>BRANDING</b>
+                </div>
+        </div>
+        <p class="client">CLIENT’S REVIEW</p>
+    </section>
+
+    <section class="sec-4">
+        <div class="emma">
+            <div class="emma-grp">
+                <p><a href="#">EMMA’S VENTURES</a></p>
+                <div class="emma-btn">
+                    <p>SERVICES:</p>
+                    <button>BRANDING</button>
+                </div>
+            </div>
+            <div class="emma-jim">
+                <p> EMMA JIM </p>
+                <img src="./images/emma jim.png" alt="jim">
+                <p class="ssp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="animation">
+        <div class="marquee">
+            <p class="marquee-content">wanna be starting something drop us a line  -</p>
+        </div>
+    </div>
+
+    <div class="cursor-div">
+
+        <img src="./images/JONGI MEDIA.png" class="jon-img" alt="">
+        
+        <div id="blob"> 
+            <p>Get</p>
+            <p>In</p>
+            <p>Touch</p>
+        </div>
+        <div id="blob-blur"></div>
+    </div>
+
+    </div>
+    <footer>
+        <div class="ft-1"> <a href="#"> instagram </a> <a href="#"> facebook </a> <a href="#"> twiter </a> </div>
+        <div class="ft-2"><a href="#">@Jongimedia2023</a></div>
+    </footer>
+
+    <script>
+        const blob = document.getElementById('blob');
+    
+    document.body.onpointermove = event => {
+    const { clientX, clientY } = event;
+    
+    blob.animate({
+        top: `${clientY}px`,
+        left: `${clientX}px`
+    }, {
+        duration: 3000,
+        fill: 'forwards'
+    });
+    
+    }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: white;
+    padding: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    width: 55px;
+    position: absolute;
+    top: 0;
+    right: 49%;
+    left: 49%;
+}
+
+nav {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 30px 40px 20px 40px ;
+}
+
+.hambuger {
+    display: none;
+}
+
+.top-jongi {
+    text-align: center;
+}
+
+.Jongi {
+    width: 95%;
+    padding-top: 40px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ssp {
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creative {
+    padding: 30px 40px 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.5px solid white;
+}
+
+.poeple-img {
+    position: relative;
+}
+
+.btn-play {
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.ppl {
+    width: 99%;
+    padding: 20px;
+    height: 80%;
+}
+
+h2 {
+    font-family: 'Fira Code', monospace;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.peple-text {
+    max-width: 900px;
+    padding:  50px 90px 50px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+} 
+
+.sub-peple-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub-peple-text p a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.sub-peple-text p a img {
+    width: 40px;
+}
+
+.sec-2 {
+    border-top: 1px solid white;
+}
+
+.peple-text p {
+    max-width: 500px;
+    color: #AAAAAA;
+    font-weight: 100;
+}
+
+.lw-div {
+    display: flex;
+    justify-content: space-between;  
+    padding: 40px 70px 40px 70px;
+}
+
+.div-woty {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Featured-Work {
+    font-size: 40px;
+}
+
+.woty {
+    max-width: 290px;
+    font-size: 20px;
+}
+
+.see-all {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.see-all a {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.see-all img {
+    width: 40%;
+    padding: 2px;
+}
+
+.sec-3 {
+    padding: 20px;
+}
+
+.tips-grp {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.tips p {
+    padding:  20px 0 20px 0;
+}
+
+h3 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+}
+
+.tips b {
+    font-size: 24px;
+    font-weight: 200;
+    color: #AAAAAA;
+}
+
+.tips {
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.tips img{
+  width: 100%;
+}
+
+.client {
+    font-size: 32px;
+    font-family: 'Fira Code', monospace;
+    padding: 60px 0 0 55px;
+}
+
+.sec-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-top: 1px solid white;
+    flex-wrap: wrap;
+}
+
+.emma {
+    display: flex;
+    gap: 100px;
+} 
+
+.emma a {
+    border-bottom: 1px solid white;
+}
+
+.emma-grp {
+    display: flex;
+    gap: 100px;
+}
+
+.emma-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.emma-btn button {
+    background-color: inherit;
+    color: #AAAAAA;
+    border: 1px solid #AAAAAA;
+    padding: 05px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.emma-jim {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.emma-jim img {
+    width: 70%;
+}
+
+.animation {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.marquee {
+    background-color: #ffff;
+    color: black;
+    width: fit-content;
+    transform: translate(-50%);
+    animation: scrolling 20s linear infinite; 
+}
+
+
+@keyframes scrolling {
+    0% {transform: translateX(0); }
+    50% {transform: translateX(-47%); }
+    100% {transform: translateX(0); }
+}
+
+.marquee-content {
+    font-size: 5rem;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    white-space: nowrap;
+}
+
+footer {
+    border-top: 1px solid white;
+    padding: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #AAAAAA;  
+}
+
+.cursor-div {
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blob {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	translate: -50% -50%;
+	border-radius: 50%;
+    background-color: #fff;
+    color: black;
+    height: 9rem;
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jon-img {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blob-blur {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	backdrop-filter: blur;
+}
+
+.mobile-img {
+    display: none;
+}
+
+@media (orientation: portrait) {
+    h2 {
+        font-size: 130%;
+    }
+
+    .tips {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .peple-text {
+        padding: 20px;
+    }
+
+    .Featured-Work {
+        font-size: 30px;
+    }
+
+    .lw-div {
+        padding: 20px 40px 20px 40px;
+        flex-direction: column;
+    }
+
+    .hambuger {
+        display: flex;
+    }
+
+    nav p a {
+        display: none;
+        width: 100%;
+    }
+
+    nav {
+        align-items: center;
+        padding: 0;
+    }
+
+    .logo {
+        position: static;
+    }
+
+    .emma {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .sec-4 {
+        padding: 10px;
+    }
+
+    .emma-grp {
+        gap: 50px;
+    }
+
+    .marquee-content {
+        font-size: 2rem;
+    }
+
+    #blob {
+        width: 80px;
+        height: 80px;
+    }
+
+    .mobile-img {
+        display: flex;
+        width: 100%;
+    }
+
+    .ppl {
+        display: none;
+    }
+
+    .creative {
+        padding: 30px 40px 30px 40px;
+    }
+}
